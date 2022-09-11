@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 
+window.React = React;
+
 //.render - Manda renderizar a aplicação no navegador 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
